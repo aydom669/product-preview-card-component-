@@ -53,15 +53,18 @@ body {
           padding: 1rem 0;
           border-radius: 10px;
           background: #3c8067;
-          color: white; }
+          color: white;
+          cursor: pointer; }
+          body .containe .main__box--flex .main__text .btn:hover {
+            background: #1f4235;
+            transition: 1s; }
 
-@media (min-width: 650px) {
-  main .containe {
-    width: 100%;
-    height: 100%;
-    display: flex;
+@media (max-width: 767px) {
+  body .containe .main__box--flex {
+    margin: 1rem 0;
     flex-direction: column; }
-    main .containe .main__box--flex {
-      height: 100%; } }
+  body .containe .main__img__box picture img {
+    height: 100%;
+    width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */
